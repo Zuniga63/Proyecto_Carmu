@@ -9,7 +9,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
     z-index: 1000;
     top: 0;
 }
@@ -34,7 +34,7 @@
 .banner-container .slide{
     display: flex;
     transform: translate3d(0,0,0);
-    transition: all 600ms;
+    transition: all 900ms;
     animation: autoplay;
     animation-duration: 10s;
     animation-direction: alternate;

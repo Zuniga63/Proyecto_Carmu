@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.main-header a{
+    text-decoration: none;
+}
+
 .main-header .logo{
     font-family: "Bradley hand itc";
     color: red;
@@ -25,8 +29,6 @@
     font-size: 2em;
 
     height: 50px;
-    text-align: center;
-    
 }
 
 .logo>span{

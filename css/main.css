@@ -16,6 +16,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container{
@@ -43,14 +45,55 @@ body{
     object-fit: cover;
 }
 
-.articulos-grid{
-    display: grid;
-    gap: 20px;
+
+#c-slider{
+    margin: auto;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
 }
+
+#slider{
+    display: flex;
+    width: 400%;    /*Porque son 8 imagenes*/
+}
+
+#slider section{
+    width: 100%;
+}
+
+#btn-prev, #btn-next{
+    width: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+#btn-prev:hover, #btn-next:hover{
+    background:rgba(0, 0, 0, 1);
+}
+
+#btn-prev{
+    left: 10px;
+}
+
+#btn-next{
+    right: 10px;
+}
+
+
 
 .article{
     width: 100%;
-    padding-top: 20px;
     color: #717171;
 }
 
